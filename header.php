@@ -9,9 +9,11 @@
 <body <?php body_class(); ?>>
 
 	<header>
-		<div class="barra-topo">
-			<div class="redes-socias">Redes Socias</div>
-			<div class="pesquisa">Pesquisa</div>
+		<div class="barra-topo container">
+			<div class="row">
+				<div class="redes-socias col-md-4">Redes Socias</div>
+				<div class="pesquisa col-md-8">Pesquisa</div>
+			</div>
 		</div>
 
 		<div class="area-menu">

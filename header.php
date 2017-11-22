@@ -8,12 +8,12 @@
 
 	<header>
 		<div class="barra-topo">
-			<div class="redes-socias"></div>
-			<div class="pesquisa"></div>
+			<div class="redes-socias">Redes Socias</div>
+			<div class="pesquisa">Pesquisa</div>
 		</div>
 
 		<div class="area-menu">
-			<div class="logo"></div>
-			<div class="menu"></div>
+			<div class="logo">Logo</div>
+			<div class="menu-principal">Menu</div>
 		</div>
 	</header>

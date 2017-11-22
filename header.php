@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Learn WordPress</title>
+
+	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 

@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <div class="conteudo">
 	<main>
 		<section class="slide"></section>
@@ -9,3 +10,4 @@
 		<section class="mapa"></section>
 	</main>
 </div>
+<?php get_footer(); ?>

@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Learn WordPress</title>
 </head>
-<body>
+<body <?php body_class(); ?>>
 	
 </body>
 </html>

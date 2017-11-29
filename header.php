@@ -16,8 +16,10 @@
 			</div>
 		</div>
 
-		<div class="area-menu">
-			<div class="logo">Logo</div>
-			<div class="menu-principal">Menu</div>
+		<div class="area-menu container">
+			<div class="row">
+				<div class="logo col-md-3">Logo</div>
+				<div class="menu-principal col-md-9">Menu</div>
+			</div>
 		</div>
 	</header>

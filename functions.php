@@ -18,3 +18,13 @@
 	add_action('wp_enqueue_scripts', 'carrega_scripts');
 
 //-----------------------------------------------------------------------------
+
+	/**
+	 * Função para menus.
+	 */
+	register_nav_menus(
+
+		array(
+			'menu_principal' => 'Menu Principal'
+		)
+	);

@@ -19,7 +19,7 @@
 		<div class="area-menu container">
 			<div class="row">
 				<div class="logo col-md-3">Logo</div>
-				<div class="menu-principal col-md-9">
+				<div class="menu-principal col-md-9 text-right">
 					<?php wp_nav_menu(array('theme_location' => 'menu_principal')); ?>
 				</div>
 			</div>

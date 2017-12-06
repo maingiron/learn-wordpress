@@ -5,7 +5,7 @@
 get_header(); ?>
 <div class="conteudo-wrapper">
 	<main>
-		<div class="conteudo">
+		<div class="conteudo container">
 			<?php 
 				// Se houver algum post
 				if(have_posts()) : 

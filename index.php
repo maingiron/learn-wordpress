@@ -15,6 +15,7 @@
 							while (have_posts()) : the_post();
 					?>
 						<h1><?php the_title(); ?></h1>
+						<?php the_post_thumbnail(); ?>
 						<p>Publicado em <?php echo get_the_date(); ?> por <?php the_author(); ?></p>
 						<p>Categorias: <?php the_category(' '); ?></p>
 						<p><?php the_tags('Tags: ', ', ') ?></p>

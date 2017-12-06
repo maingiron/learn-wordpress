@@ -34,8 +34,9 @@
 	/**
 	 * Função para dá suporte ao tema.
 	 */
-	add_theme_support('custom-background');
-	add_theme_support('custom-header');
+	add_theme_support('custom-background');		// Adiciona um background na página
+	add_theme_support('custom-header');			// Adiciona uma imagem no header
+	add_theme_support('post-thumbnails');		// Adiciona uma miniatura
 
 //-----------------------------------------------------------------------------
 

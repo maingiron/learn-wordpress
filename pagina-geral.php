@@ -13,9 +13,7 @@ get_header(); ?>
 					while (have_posts()) : the_post();
 			?>
 				<h1><?php the_title(); ?></h1>
-				<p>Publicado em <?php echo get_the_date(); ?> por <?php the_author(); ?></p>
-				<p>Categorias: <?php the_category(' '); ?></p>
-				<p><?php the_tags('Tags: ', ', ') ?></p>
+				<p>Autor <?php the_author(); ?></p>
 				<p><?php the_content(); ?></p>
 			<?php 
 					endwhile;

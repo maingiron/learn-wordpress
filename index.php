@@ -24,10 +24,10 @@
 						endif;
 					?>
 
-					<aside class="barra-lateral col-md-3">
-						<?php get_sidebar('blog'); ?>
-					</aside>
 				</div>
+				<aside class="barra-lateral col-md-3">
+					<?php get_sidebar('blog'); ?>
+				</aside>
 			</div>
 		</section>
 		<section class="mapa">Mapa</section>

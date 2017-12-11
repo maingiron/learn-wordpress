@@ -38,6 +38,9 @@
 	add_theme_support('custom-header');			// Adiciona uma imagem no header
 	add_theme_support('post-thumbnails');		// Adiciona uma miniatura
 
+	// Adiciona um formato para o post
+	add_theme_support('post-formats', array('video', 'image'));			
+
 //-----------------------------------------------------------------------------
 
 //-----------------------------------------------------------------------------

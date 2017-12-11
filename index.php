@@ -13,11 +13,9 @@
 						if(have_posts()) : 
 							// Enquanto houver algum post, chame o post...
 							while (have_posts()) : the_post();
-					?>
 						
-					<?php get_template_part('content', get_post_format()) ?>
+								get_template_part('content', get_post_format());
 
-					<?php 
 							endwhile;
 						else:
 					?>

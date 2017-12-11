@@ -51,7 +51,7 @@
 
 		array(
 			'name' 			=> 'Barra Lateral 1',
-			'id'			=> 'sidebar-1',
+			'id'			=> 'sidebar-home',
 			'description' 	=> 'Barra lateral da página home',
 			'before_widget' => '<div class="widget-wrapper">',
 			'after_widget' 	=> '</div>',

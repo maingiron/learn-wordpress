@@ -5,7 +5,9 @@
 		<section class="servicos">Serviços</section>
 		<section class="meio container">
 			<div class="row">
-				<aside class="barra-lateral col-md-3">Barra Lateral</aside>
+				<aside class="barra-lateral col-md-3">
+					<?php get_sidebar(); ?>
+				</aside>
 				<div class="noticias col-md-9">
 					<p>Página de Home</p>
 				</div>

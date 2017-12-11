@@ -10,9 +10,11 @@
 
 	<header>
 		<div class="barra-topo">
-			<div class="row">
-				<div class="redes-socias col-md-4">Redes Socias</div>
-				<div class="pesquisa col-md-8">Pesquisa</div>
+			<div class="container">
+				<div class="row">
+					<div class="redes-socias col-md-4">Redes Socias</div>
+					<div class="pesquisa col-md-8">Pesquisa</div>
+				</div>
 			</div>
 		</div>
 

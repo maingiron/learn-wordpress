@@ -2,8 +2,6 @@
 <img class="img-responsive" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 <div class="conteudo">
 	<main>
-		<section class="slide">Slide</section>
-		<section class="servicos">Serviços</section>
 		<section class="meio container">
 			<div class="row">
 				<div class="noticias col-md-9">
@@ -30,7 +28,6 @@
 				</aside>
 			</div>
 		</section>
-		<section class="mapa">Mapa</section>
 	</main>
 </div>
 <?php get_footer(); ?>

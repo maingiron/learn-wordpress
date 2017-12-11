@@ -69,7 +69,7 @@
 
 		array(
 			'name' 			=> 'Barra Lateral 2',
-			'id'			=> 'sidebar-2',
+			'id'			=> 'sidebar-blog',
 			'description' 	=> 'Barra lateral da página blog',
 			'before_widget' => '<div class="widget-wrapper">',
 			'after_widget' 	=> '</div>',

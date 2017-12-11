@@ -6,7 +6,7 @@
 		<section class="meio container">
 			<div class="row">
 				<aside class="barra-lateral col-md-3">
-					<?php get_sidebar(); ?>
+					<?php get_sidebar('sidebar-home'); ?>
 				</aside>
 				<div class="noticias col-md-9">
 					<p>Página de Home</p>

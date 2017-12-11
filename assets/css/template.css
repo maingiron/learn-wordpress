@@ -21,3 +21,15 @@
 .menu-principal ul li {
 	display: inline;
 }
+
+.vermelho {
+	color: red;
+	font-weight: bold;
+}
+
+.verde {
+	background: green;
+	color: #fff;
+	font-weight: bold;
+
+}

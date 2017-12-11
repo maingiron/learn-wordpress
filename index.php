@@ -14,6 +14,7 @@
 							// Enquanto houver algum post, chame o post...
 							while (have_posts()) : the_post();
 						
+								// Obtém parte do template com o nome passado por parâmetro
 								get_template_part('content', get_post_format());
 
 							endwhile;

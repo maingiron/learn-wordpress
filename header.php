@@ -9,7 +9,7 @@
 <body <?php body_class(); ?>>
 
 	<header>
-		<div class="barra-topo container">
+		<div class="barra-topo">
 			<div class="row">
 				<div class="redes-socias col-md-4">Redes Socias</div>
 				<div class="pesquisa col-md-8">Pesquisa</div>

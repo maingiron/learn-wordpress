@@ -15,7 +15,7 @@
 							while (have_posts()) : the_post();
 					?>
 						
-					<?php get_template_part('content', get_post_formats()); ?>
+					<?php get_template_part('content', get_post_format()) ?>
 
 					<?php 
 							endwhile;

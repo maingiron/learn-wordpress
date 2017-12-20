@@ -71,6 +71,17 @@ h4{ font-size: 18px; margin-top: 0;}
 /* Meio */
 .meio{ padding: 25px 0; }
 .meio h1{ color: #4c1b1b; text-transform: uppercase;  }
+.noticia-destaque,
+.miniatura {
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.noticia-secundaria,
+.miniatura {
+	max-height: 150px;
+	overflow: hidden;
+}
 
 /* Meio - Barra Lateral */
 .barra-lateral{ background: #f6e497; padding: 20px; }

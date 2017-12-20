@@ -9,7 +9,12 @@
 					<?php get_sidebar('sidebar-home'); ?>
 				</aside>
 				<div class="noticias col-md-9">
-					<p>Página de Home</p>
+					<div class="row">
+						<?php 
+							$destaque = new WP_Query();
+
+						 ?>
+					</div>
 				</div>
 			</div>
 		</section>

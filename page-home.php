@@ -11,7 +11,9 @@
 				<div class="noticias col-md-9">
 					<div class="row">
 						<?php 
-							$destaque = new WP_Query();
+							$destaque = new WP_Query('post_type=post&posts_per_page=1&cat=11,3');
+
+							
 
 						 ?>
 					</div>

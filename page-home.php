@@ -16,7 +16,13 @@
 							if ($destaque->have_posts()):
 								while ($destaque->have_posts()):
 									$destaque->the_post();
-								:endwhile
+						?>
+									<div class="col-md-12">
+										<?php get_template_part('content', 'destaque'); ?>
+									</div>
+									
+						<?php
+								endwhile
 							endif;
 
 						 ?>

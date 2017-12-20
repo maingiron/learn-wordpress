@@ -22,7 +22,7 @@
 									</div>
 									
 						<?php
-								endwhile
+								endwhile;
 							endif;
 
 						 ?>

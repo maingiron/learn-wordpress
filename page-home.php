@@ -13,7 +13,11 @@
 						<?php 
 							$destaque = new WP_Query('post_type=post&posts_per_page=1&cat=11,3');
 
-							
+							if ($destaque->have_posts()):
+								while ($destaque->have_posts()):
+									$destaque->the_post();
+								:endwhile
+							endif;
 
 						 ?>
 					</div>

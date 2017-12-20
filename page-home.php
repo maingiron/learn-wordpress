@@ -33,7 +33,7 @@
 						 		'posts_per_page' 	=> 2,
 						 		'category__not_in' 	=> array(6),
 						 		'category__in'		=> array(11,3),
-						 		'offset'			=> 1,
+						 		'offset'			=> 1, // pula um post
 						 	);
 
 							$secundarias = new WP_Query($args);

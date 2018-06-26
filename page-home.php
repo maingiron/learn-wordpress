@@ -15,7 +15,7 @@
 					</aside>
 					<div class="noticias col-md-9">
 						<div class="row">
-						<?php 
+						<?php
 
 						/**
 						 * Variáveis para divs das notícias e arquivo de conteúdo
@@ -29,7 +29,7 @@
                         			$op_content = 'destaque';
 
                         			// Quais categorias serão inclusas na nossa listagem?
-						$itens = get_categories(array('include' => '6,7,8'));
+						$itens = get_categories(array('include' => '4,5,6'));
 
 						// echo '<pre>';
 						// print_r($itens);
@@ -57,7 +57,7 @@
 							?>
 								<div class="<?php echo $tamanho; ?>">
 									<?php get_template_part('content', $op_content); ?>
-								</div>								
+								</div>
 
 							<?php
 
@@ -77,7 +77,7 @@
 						endforeach;
 
 						?>
-							
+
 						</div>
 					</div>
 				</div>
@@ -86,9 +86,6 @@
 		<section class="mapa">
 			<div class="container">Mapa</div>
 		</section>
-	</main>	
+	</main>
 </div>
 <?php get_footer(); ?>
-
-
-

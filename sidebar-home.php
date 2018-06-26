@@ -1,6 +1,4 @@
 <?php 
-	
-	if (is_active_sidebar('sidebar-home')) {
-
-		dynamic_sidebar('sidebar-home');
-	}
+if( is_active_sidebar('sidebar-1')){
+	dynamic_sidebar('sidebar-1');
+}

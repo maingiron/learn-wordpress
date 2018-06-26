@@ -1,43 +1,7 @@
-/*.wp-post-image {
-	float: left;
-	margin: 0 15px 10px 0;
-}
-
-.barra-topo {
-	background: red;
-	height: 70px;
-}
-
-.redes-socias {
-	background: green;
-	height: 30px;
-}
-
-.pesquisa {
-	background: yellow;
-	height: 30px;
-}
-
-.menu-principal ul li {
-	display: inline;
-}
-
-.vermelho {
-	color: red;
-	font-weight: bold;
-}
-
-.verde {
-	background: green;
-	color: #fff;
-	font-weight: bold;
-
-}*/
-
 /*
 Descrição: Folha de estilos criada para o curso "Criando Temas Customizados com WordPress"
-Autor: Raphael Giron <maingiron@gmail.com>
-Homepage: http://raphaelgiron.com.br/
+Autor: Marcelo Vieira
+Homepage: http://www.websitesmaringa.com.br
 */
 
 /* Google Fonts */
@@ -71,17 +35,8 @@ h4{ font-size: 18px; margin-top: 0;}
 /* Meio */
 .meio{ padding: 25px 0; }
 .meio h1{ color: #4c1b1b; text-transform: uppercase;  }
-.noticia-destaque,
-.miniatura {
-	max-height: 400px;
-	overflow: hidden;
-}
-
-.noticia-secundaria,
-.miniatura {
-	max-height: 150px;
-	overflow: hidden;
-}
+.noticia-destaque .miniatura{ max-height: 400px; overflow: hidden; }
+.noticia-secundaria .miniatura{ max-height: 150px; overflow: hidden; }
 
 /* Meio - Barra Lateral */
 .barra-lateral{ background: #f6e497; padding: 20px; }
